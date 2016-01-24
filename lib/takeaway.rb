@@ -1,4 +1,5 @@
 require 'order'
+
 class Takeaway
 
   def initialize(menu:, order: nil)
@@ -17,6 +18,5 @@ class Takeaway
   end
 
   private
-
   attr_reader :menu, :order
 end

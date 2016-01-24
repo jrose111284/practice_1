@@ -16,6 +16,5 @@ describe Takeaway do
   it 'can order serveral number of dishes' do
     expect(order).to receive(:add).twice
     takeaway.place_order(dishes)
-
   end
 end
