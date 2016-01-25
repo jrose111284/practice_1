@@ -21,4 +21,8 @@ describe Menu do
   it "tells if a dish is on the menu" do
     expect(menu.has_dish?(:Chicken)).to be(true)
   end
+
+  it "tells if a dish is not on the menu" do
+    expect(menu.has_dish?(:beef)).to be(false)
+  end
 end
